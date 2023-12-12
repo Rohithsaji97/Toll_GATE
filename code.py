@@ -67,7 +67,7 @@ def toll_amt(vn):
     if Flag:
         detail=bal
     else:
-        detail='Vehicle not found'
+        detail='Vehicle has no sufficient balance'
     return detail
     
 
